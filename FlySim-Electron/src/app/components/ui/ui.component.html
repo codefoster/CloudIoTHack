@@ -1,0 +1,60 @@
+<div class="pane1">
+  <div class="label">
+    Airspeed
+  </div>
+  <div class="value">
+    <span id="airspeed">384</span> mpg
+  </div>
+  <div class="label">
+    Heading
+  </div>
+  <div class="value">
+    <span id="heading">47</span>&deg;
+    <span id="cardinal-direction">NW</span>
+  </div>
+  <div class="label">
+    Altitude
+  </div>
+  <div class="value">
+    <span id="altitude">28,892</span> ft
+  </div>
+</div>
+<div class="pane2">
+  <div class="horizon">
+    <img id="horizon-outer-ring" src="horizon-outer-ring.png" />
+    <img id="horizon-background" src="horizon-background.png" />
+    <img id="horizon-bezel" src="horizon-bezel.png" />
+    <img id="horizon-plane" src="horizon-plane.png" />
+  </div>
+  <div class="ats">
+    <canvas id="ats-chart" height="300" width="300"></canvas>
+  </div>
+</div>
+<div class="map">
+</div>
+<div class="footer">
+  <div class="items left">
+    <div class="item">
+      <img src="thermometer.svg" class="footer-icon">
+      <span id="temperature">72.0</span>&deg;F
+    </div>
+    <div class="item">
+      <img src="humidity.svg" class="footer-icon">
+      <span id="humidity">59</span>%
+    </div>
+    <div class="item">
+      <img src="clock.svg" class="footer-icon">
+      <span id="time">08:52:26</span>
+    </div>
+  </div>
+  <div class="items right">
+    <div class="item">
+      <img src="chip.svg" class="footer-icon">
+      <select id="language">
+        <option value="en-us">English</option>
+        <option value="fr-fr">French</option>
+        <option value="es-es">Spanish</option>
+      </select>
+    </div>
+  </div>
+</div>
